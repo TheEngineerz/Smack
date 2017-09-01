@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		3C14A1311F59A1390067660C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C14A1301F59A1390067660C /* AppDelegate.swift */; };
-		3C14A1331F59A1390067660C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C14A1321F59A1390067660C /* ViewController.swift */; };
 		3C14A1361F59A13A0067660C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C14A1341F59A13A0067660C /* Main.storyboard */; };
 		3C14A1381F59A13A0067660C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C14A1371F59A13A0067660C /* Assets.xcassets */; };
 		3C14A13B1F59A13A0067660C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C14A1391F59A13A0067660C /* LaunchScreen.storyboard */; };
 		3C14A1461F59A4220067660C /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C14A1451F59A4220067660C /* SWRevealViewController.m */; };
+		3C14A14B1F59AD4B0067660C /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C14A14A1F59AD4B0067660C /* ChatVC.swift */; };
+		3C14A14D1F59AD5F0067660C /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C14A14C1F59AD5F0067660C /* ChannelVC.swift */; };
 		B588396EA3F86770E0475EB9 /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9476A8E6448F521EA5E79294 /* Pods_Smack.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3C14A12D1F59A1390067660C /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C14A1301F59A1390067660C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3C14A1321F59A1390067660C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3C14A1351F59A13A0067660C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C14A1371F59A13A0067660C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C14A13A1F59A13A0067660C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -27,6 +27,8 @@
 		3C14A1431F59A4210067660C /* Smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smack-Bridging-Header.h"; sourceTree = "<group>"; };
 		3C14A1441F59A4220067660C /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		3C14A1451F59A4220067660C /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		3C14A14A1F59AD4B0067660C /* ChatVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		3C14A14C1F59AD5F0067660C /* ChannelVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		9476A8E6448F521EA5E79294 /* Pods_Smack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C64863F1E396A251F0B4A410 /* Pods-Smack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.debug.xcconfig"; sourceTree = "<group>"; };
 		DB9011670E8F48AB34016F8E /* Pods-Smack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.release.xcconfig"; sourceTree = "<group>"; };
@@ -82,9 +84,11 @@
 		3C14A12F1F59A1390067660C /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				3C14A1491F59ACEA0067660C /* Controller */,
+				3C14A1481F59ACE30067660C /* View */,
+				3C14A1471F59ACD80067660C /* Model */,
 				3C14A1421F59A3F30067660C /* SWReveal */,
 				3C14A1301F59A1390067660C /* AppDelegate.swift */,
-				3C14A1321F59A1390067660C /* ViewController.swift */,
 				3C14A1341F59A13A0067660C /* Main.storyboard */,
 				3C14A1371F59A13A0067660C /* Assets.xcassets */,
 				3C14A1391F59A13A0067660C /* LaunchScreen.storyboard */,
@@ -101,6 +105,29 @@
 				3C14A1431F59A4210067660C /* Smack-Bridging-Header.h */,
 			);
 			name = SWReveal;
+			sourceTree = "<group>";
+		};
+		3C14A1471F59ACD80067660C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3C14A1481F59ACE30067660C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3C14A1491F59ACEA0067660C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3C14A14A1F59AD4B0067660C /* ChatVC.swift */,
+				3C14A14C1F59AD5F0067660C /* ChannelVC.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +255,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C14A1331F59A1390067660C /* ViewController.swift in Sources */,
+				3C14A14B1F59AD4B0067660C /* ChatVC.swift in Sources */,
 				3C14A1311F59A1390067660C /* AppDelegate.swift in Sources */,
 				3C14A1461F59A4220067660C /* SWRevealViewController.m in Sources */,
+				3C14A14D1F59AD5F0067660C /* ChannelVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +431,7 @@
 				3C14A1411F59A13A0067660C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
